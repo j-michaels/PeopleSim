@@ -1,0 +1,371 @@
+TPeopleSim
+v7
+r0
+t287572202.640889
+cCheck dependencies
+cProcessInfoPlistFile /Users/jmichaels/Projects/PeopleSim/build/Debug/PeopleSim.app/Contents/Info.plist Info.plist
+cCopyStringsFile /Users/jmichaels/Projects/PeopleSim/build/Debug/PeopleSim.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Users/jmichaels/Projects/PeopleSim/English.lproj/MainMenu.xib
+cProcessPCH /var/folders/Ws/Ws1uagRKHrW7l3D9YW1yy++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PeopleSim_Prefix-gvoyxidqewlsaqfnbhuddymqdlim/PeopleSim_Prefix.pch.gch PeopleSim_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/Ws/Ws1uagRKHrW7l3D9YW1yy++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PeopleSim_Prefix-cfceuljzmwpgjhbvisnjdfutxsjd/PeopleSim_Prefix.pch.gch PeopleSim_Prefix.pch normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/PeopleSim.build/Debug/PeopleSim.build/Objects-normal/i386/main.o /Users/jmichaels/Projects/PeopleSim/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PeopleSim.build/Debug/PeopleSim.build/Objects-normal/i386/SimView.o /Users/jmichaels/Projects/PeopleSim/SimView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PeopleSim.build/Debug/PeopleSim.build/Objects-normal/i386/linkedlist.o /Users/jmichaels/Projects/PeopleSim/linkedlist.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/PeopleSim.build/Debug/PeopleSim.build/Objects-normal/i386/array.o /Users/jmichaels/Projects/PeopleSim/array.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/PeopleSim.build/Debug/PeopleSim.build/Objects-normal/i386/wop.o /Users/jmichaels/Projects/PeopleSim/wop.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/PeopleSim.build/Debug/PeopleSim.build/Objects-normal/i386/ETPerson.o /Users/jmichaels/Projects/PeopleSim/ETPerson.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/jmichaels/Projects/PeopleSim/build/Debug/PeopleSim.app/Contents/MacOS/PeopleSim normal i386
+cTouch /Users/jmichaels/Projects/PeopleSim/build/Debug/PeopleSim.app
+
+N/Developer/SDKs/MacOSX10.5.sdk
+c000000004A49A9E400000000000000EE
+t1246341604
+s238
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/math.h
+c0000000047BA987000000000000004B7
+t1203411056
+s1207
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/stdio.h
+c0000000047BA99310000000000003D1D
+t1203411249
+s15645
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/stdlib.h
+c0000000047BA99310000000000002A79
+t1203411249
+s10873
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/string.h
+c0000000047BA99320000000000001731
+t1203411250
+s5937
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/time.h
+c0000000047BA9932000000000000178E
+t1203411250
+s6030
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/jmichaels/Projects/PeopleSim/ETPerson.h
+c0000000049BAB523000000000000010D
+t1236972835
+s269
+i<Cocoa/Cocoa.h>
+
+N/Users/jmichaels/Projects/PeopleSim/ETPerson.m
+c0000000049BAB60400000000000000DB
+t1236973060
+s219
+i"ETPerson.h"
+
+N/Users/jmichaels/Projects/PeopleSim/English.lproj/InfoPlist.strings
+c0000000049BA39C5000000000000005C
+t1236941253
+s92
+
+N/Users/jmichaels/Projects/PeopleSim/English.lproj/MainMenu.xib
+c0000000049BB71FC000000000002B122
+t1237021180
+s176418
+
+N/Users/jmichaels/Projects/PeopleSim/PeopleSim_Prefix.pch
+c0000000049BA39C50000000000000095
+t1236941253
+s149
+i<Cocoa/Cocoa.h>
+
+N/Users/jmichaels/Projects/PeopleSim/SimView.h
+c0000000049BB71FB0000000000000416
+t1237021179
+s1046
+i<Cocoa/Cocoa.h>
+i"wop.h"
+i"ETPerson.h"
+
+N/Users/jmichaels/Projects/PeopleSim/SimView.m
+c0000000049BDB0F20000000000001262
+t1237168370
+s4706
+i"SimView.h"
+i"wop.h"
+
+N/Users/jmichaels/Projects/PeopleSim/array.c
+c0000000049BA4E5E0000000000000AD4
+t1236946526
+s2772
+i<stdlib.h>
+i<stdio.h>
+i"array.h"
+
+N/Users/jmichaels/Projects/PeopleSim/array.h
+c0000000049BA3E4700000000000001FE
+t1236942407
+s510
+
+N/Users/jmichaels/Projects/PeopleSim/build/Debug/PeopleSim.app
+t1265879402
+s102
+
+N/Users/jmichaels/Projects/PeopleSim/build/Debug/PeopleSim.app/Contents/Info.plist
+t1265879391
+s775
+
+N/Users/jmichaels/Projects/PeopleSim/build/Debug/PeopleSim.app/Contents/MacOS/PeopleSim
+t1265879402
+s34272
+
+N/Users/jmichaels/Projects/PeopleSim/build/Debug/PeopleSim.app/Contents/PkgInfo
+t1265879391
+s8
+
+N/Users/jmichaels/Projects/PeopleSim/build/Debug/PeopleSim.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1265879392
+s92
+
+N/Users/jmichaels/Projects/PeopleSim/build/Debug/PeopleSim.app/Contents/Resources/English.lproj/MainMenu.nib
+t1237021181
+s38438
+
+N/Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/Objects-normal/i386/ETPerson.o
+t1265879401
+s6316
+
+N/Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/Objects-normal/i386/PeopleSim.LinkFileList
+c0000000049BAB5C8000000000000028F
+t1236973000
+s655
+
+N/Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/Objects-normal/i386/SimView.o
+t1265879401
+s33888
+
+N/Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/Objects-normal/i386/array.o
+t1265879401
+s5476
+
+N/Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/Objects-normal/i386/linkedlist.o
+t1265879401
+s4320
+
+N/Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/Objects-normal/i386/main.o
+t1265879401
+s4848
+
+N/Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/Objects-normal/i386/wop.o
+t1265879401
+s17456
+
+N/Users/jmichaels/Projects/PeopleSim/linkedlist.c
+c0000000049AE466F0000000000000A54
+t1236158063
+s2644
+i<stdlib.h>
+i<stdio.h>
+i"linkedlist.h"
+
+N/Users/jmichaels/Projects/PeopleSim/linkedlist.h
+c0000000049BA3E210000000000000189
+t1236942369
+s393
+
+N/Users/jmichaels/Projects/PeopleSim/main.m
+c0000000049BA39C50000000000000107
+t1236941253
+s263
+i<Cocoa/Cocoa.h>
+
+N/Users/jmichaels/Projects/PeopleSim/wop.c
+c0000000049BDC89B00000000000052EE
+t1237174427
+s21230
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<math.h>
+i<time.h>
+i"wop.h"
+
+N/Users/jmichaels/Projects/PeopleSim/wop.h
+c0000000049BA4F690000000000001738
+t1236946793
+s5944
+i"array.h"
+i"linkedlist.h"
+
+N/var/folders/Ws/Ws1uagRKHrW7l3D9YW1yy++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PeopleSim_Prefix-cfceuljzmwpgjhbvisnjdfutxsjd/PeopleSim_Prefix.pch.gch
+t1265879392
+s2142576
+
+N/var/folders/Ws/Ws1uagRKHrW7l3D9YW1yy++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PeopleSim_Prefix-gvoyxidqewlsaqfnbhuddymqdlim/PeopleSim_Prefix.pch.gch
+t1265879400
+s54084016
+
+NInfo.plist
+c0000000049BA39C50000000000000357
+t1236941253
+s855
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies287572191#287572191#0(0"0(0#1#0"7947009927035180032#0"0#
+
+CCompileC build/PeopleSim.build/Debug/PeopleSim.build/Objects-normal/i386/ETPerson.o /Users/jmichaels/Projects/PeopleSim/ETPerson.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s287572201.342696
+e287572201.554149
+r1
+xCompileC
+xbuild/PeopleSim.build/Debug/PeopleSim.build/Objects-normal/i386/ETPerson.o
+x/Users/jmichaels/Projects/PeopleSim/ETPerson.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/jmichaels/Projects/PeopleSim/ETPerson.m287572201#287572201#0(0"0(0#0#46"/Users/jmichaels/Projects/PeopleSim/ETPerson.m4300882208#1457"    cd /Users/jmichaels/Projects/PeopleSim    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/PeopleSim-generated-files.hmap -I/Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/PeopleSim-own-target-headers.hmap -I/Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/PeopleSim-all-target-headers.hmap -iquote /Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/PeopleSim-project-headers.hmap -F/Users/jmichaels/Projects/PeopleSim/build/Debug -I/Users/jmichaels/Projects/PeopleSim/build/Debug/include -I/Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/DerivedSources/i386 -I/Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/DerivedSources -include /var/folders/Ws/Ws1uagRKHrW7l3D9YW1yy++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PeopleSim_Prefix-gvoyxidqewlsaqfnbhuddymqdlim/PeopleSim_Prefix.pch -c /Users/jmichaels/Projects/PeopleSim/ETPerson.m -o /Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/Objects-normal/i386/ETPerson.o0#
+
+CCompileC build/PeopleSim.build/Debug/PeopleSim.build/Objects-normal/i386/SimView.o /Users/jmichaels/Projects/PeopleSim/SimView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s287572200.641889
+e287572201.247226
+r1
+xCompileC
+xbuild/PeopleSim.build/Debug/PeopleSim.build/Objects-normal/i386/SimView.o
+x/Users/jmichaels/Projects/PeopleSim/SimView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/jmichaels/Projects/PeopleSim/SimView.m: In function '-[SimView updateHobbyList]':
+o/Users/jmichaels/Projects/PeopleSim/SimView.m:153: warning: 'stringWithCString:' is deprecated (declared at /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:364)
+lSLF07#2@53"Compile /Users/jmichaels/Projects/PeopleSim/SimView.m287572200#287572201#0(299"/Users/jmichaels/Projects/PeopleSim/SimView.m: In function '-[SimView updateHobbyList]':/Users/jmichaels/Projects/PeopleSim/SimView.m:153: warning: 'stringWithCString:' is deprecated (declared at /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:364)1(22@149"'stringWithCString:' is deprecated (declared at /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:364)287572200#89#210#0(6@45"/Users/jmichaels/Projects/PeopleSim/SimView.m258861170#153#0#153#0#33"'*' is deprecated (declared at *)0(0#0#45"/Users/jmichaels/Projects/PeopleSim/SimView.m4300882208#1455"    cd /Users/jmichaels/Projects/PeopleSim    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/PeopleSim-generated-files.hmap -I/Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/PeopleSim-own-target-headers.hmap -I/Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/PeopleSim-all-target-headers.hmap -iquote /Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/PeopleSim-project-headers.hmap -F/Users/jmichaels/Projects/PeopleSim/build/Debug -I/Users/jmichaels/Projects/PeopleSim/build/Debug/include -I/Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/DerivedSources/i386 -I/Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/DerivedSources -include /var/folders/Ws/Ws1uagRKHrW7l3D9YW1yy++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PeopleSim_Prefix-gvoyxidqewlsaqfnbhuddymqdlim/PeopleSim_Prefix.pch -c /Users/jmichaels/Projects/PeopleSim/SimView.m -o /Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/Objects-normal/i386/SimView.o0#
+
+CCompileC build/PeopleSim.build/Debug/PeopleSim.build/Objects-normal/i386/array.o /Users/jmichaels/Projects/PeopleSim/array.c normal i386 c com.apple.compilers.gcc.4_2
+s287572201.247364
+e287572201.342604
+r1
+xCompileC
+xbuild/PeopleSim.build/Debug/PeopleSim.build/Objects-normal/i386/array.o
+x/Users/jmichaels/Projects/PeopleSim/array.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/jmichaels/Projects/PeopleSim/array.c: In function 'PrintArray':
+o/Users/jmichaels/Projects/PeopleSim/array.c:97: warning: format '%s' expects type 'char *', but argument 3 has type 'void *'
+lSLF07#2@51"Compile /Users/jmichaels/Projects/PeopleSim/array.c287572201#287572201#0(196"/Users/jmichaels/Projects/PeopleSim/array.c: In function 'PrintArray':/Users/jmichaels/Projects/PeopleSim/array.c:97: warning: format '%s' expects type 'char *', but argument 3 has type 'void *'1(22@67"Format '%s' expects type 'char *', but argument 3 has type 'void *'287572201#71#125#0(6@43"/Users/jmichaels/Projects/PeopleSim/array.c258639326#97#0#97#0#56"format '*' expects type '*', but argument * has type '*'0(0#0#43"/Users/jmichaels/Projects/PeopleSim/array.c4300882208#1441"    cd /Users/jmichaels/Projects/PeopleSim    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/PeopleSim-generated-files.hmap -I/Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/PeopleSim-own-target-headers.hmap -I/Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/PeopleSim-all-target-headers.hmap -iquote /Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/PeopleSim-project-headers.hmap -F/Users/jmichaels/Projects/PeopleSim/build/Debug -I/Users/jmichaels/Projects/PeopleSim/build/Debug/include -I/Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/DerivedSources/i386 -I/Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/DerivedSources -include /var/folders/Ws/Ws1uagRKHrW7l3D9YW1yy++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PeopleSim_Prefix-cfceuljzmwpgjhbvisnjdfutxsjd/PeopleSim_Prefix.pch -c /Users/jmichaels/Projects/PeopleSim/array.c -o /Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/Objects-normal/i386/array.o0#
+
+CCompileC build/PeopleSim.build/Debug/PeopleSim.build/Objects-normal/i386/linkedlist.o /Users/jmichaels/Projects/PeopleSim/linkedlist.c normal i386 c com.apple.compilers.gcc.4_2
+s287572201.068930
+e287572201.252426
+r1
+xCompileC
+xbuild/PeopleSim.build/Debug/PeopleSim.build/Objects-normal/i386/linkedlist.o
+x/Users/jmichaels/Projects/PeopleSim/linkedlist.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/jmichaels/Projects/PeopleSim/linkedlist.c287572201#287572201#0(0"0(0#0#48"/Users/jmichaels/Projects/PeopleSim/linkedlist.c4300882208#1451"    cd /Users/jmichaels/Projects/PeopleSim    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/PeopleSim-generated-files.hmap -I/Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/PeopleSim-own-target-headers.hmap -I/Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/PeopleSim-all-target-headers.hmap -iquote /Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/PeopleSim-project-headers.hmap -F/Users/jmichaels/Projects/PeopleSim/build/Debug -I/Users/jmichaels/Projects/PeopleSim/build/Debug/include -I/Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/DerivedSources/i386 -I/Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/DerivedSources -include /var/folders/Ws/Ws1uagRKHrW7l3D9YW1yy++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PeopleSim_Prefix-cfceuljzmwpgjhbvisnjdfutxsjd/PeopleSim_Prefix.pch -c /Users/jmichaels/Projects/PeopleSim/linkedlist.c -o /Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/Objects-normal/i386/linkedlist.o0#
+
+CCompileC build/PeopleSim.build/Debug/PeopleSim.build/Objects-normal/i386/main.o /Users/jmichaels/Projects/PeopleSim/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s287572200.640412
+e287572201.068805
+r1
+xCompileC
+xbuild/PeopleSim.build/Debug/PeopleSim.build/Objects-normal/i386/main.o
+x/Users/jmichaels/Projects/PeopleSim/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/jmichaels/Projects/PeopleSim/main.m287572200#287572201#0(0"0(0#0#42"/Users/jmichaels/Projects/PeopleSim/main.m4300882208#1449"    cd /Users/jmichaels/Projects/PeopleSim    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/PeopleSim-generated-files.hmap -I/Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/PeopleSim-own-target-headers.hmap -I/Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/PeopleSim-all-target-headers.hmap -iquote /Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/PeopleSim-project-headers.hmap -F/Users/jmichaels/Projects/PeopleSim/build/Debug -I/Users/jmichaels/Projects/PeopleSim/build/Debug/include -I/Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/DerivedSources/i386 -I/Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/DerivedSources -include /var/folders/Ws/Ws1uagRKHrW7l3D9YW1yy++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PeopleSim_Prefix-gvoyxidqewlsaqfnbhuddymqdlim/PeopleSim_Prefix.pch -c /Users/jmichaels/Projects/PeopleSim/main.m -o /Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/Objects-normal/i386/main.o0#
+
+CCompileC build/PeopleSim.build/Debug/PeopleSim.build/Objects-normal/i386/wop.o /Users/jmichaels/Projects/PeopleSim/wop.c normal i386 c com.apple.compilers.gcc.4_2
+s287572201.252552
+e287572201.432529
+r1
+xCompileC
+xbuild/PeopleSim.build/Debug/PeopleSim.build/Objects-normal/i386/wop.o
+x/Users/jmichaels/Projects/PeopleSim/wop.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/jmichaels/Projects/PeopleSim/wop.c: In function 'PrintPartyReport':
+o/Users/jmichaels/Projects/PeopleSim/wop.c:640: warning: format not a string literal and no format arguments
+lSLF07#2@49"Compile /Users/jmichaels/Projects/PeopleSim/wop.c287572201#287572201#0(183"/Users/jmichaels/Projects/PeopleSim/wop.c: In function 'PrintPartyReport':/Users/jmichaels/Projects/PeopleSim/wop.c:640: warning: format not a string literal and no format arguments1(22@51"Format not a string literal and no format arguments287572201#75#108#0(6@41"/Users/jmichaels/Projects/PeopleSim/wop.c258867227#640#0#640#0#51"format not a string literal and no format arguments0(0#0#41"/Users/jmichaels/Projects/PeopleSim/wop.c4300882208#1437"    cd /Users/jmichaels/Projects/PeopleSim    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/PeopleSim-generated-files.hmap -I/Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/PeopleSim-own-target-headers.hmap -I/Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/PeopleSim-all-target-headers.hmap -iquote /Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/PeopleSim-project-headers.hmap -F/Users/jmichaels/Projects/PeopleSim/build/Debug -I/Users/jmichaels/Projects/PeopleSim/build/Debug/include -I/Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/DerivedSources/i386 -I/Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/DerivedSources -include /var/folders/Ws/Ws1uagRKHrW7l3D9YW1yy++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PeopleSim_Prefix-cfceuljzmwpgjhbvisnjdfutxsjd/PeopleSim_Prefix.pch -c /Users/jmichaels/Projects/PeopleSim/wop.c -o /Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/Objects-normal/i386/wop.o0#
+
+CCompileXIB /Users/jmichaels/Projects/PeopleSim/English.lproj/MainMenu.xib
+r0
+
+CCopyStringsFile /Users/jmichaels/Projects/PeopleSim/build/Debug/PeopleSim.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s287572191.850073
+e287572192.483700
+r1
+xCopyStringsFile
+x/Users/jmichaels/Projects/PeopleSim/build/Debug/PeopleSim.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings287572191#287572192#0(0"0(0#0#67"/Users/jmichaels/Projects/PeopleSim/English.lproj/InfoPlist.strings4300882208#362"    cd /Users/jmichaels/Projects/PeopleSim    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/jmichaels/Projects/PeopleSim/build/Debug/PeopleSim.app/Contents/Resources/English.lproj0#
+
+CLd /Users/jmichaels/Projects/PeopleSim/build/Debug/PeopleSim.app/Contents/MacOS/PeopleSim normal i386
+s287572201.554372
+e287572202.618330
+r1
+xLd
+x/Users/jmichaels/Projects/PeopleSim/build/Debug/PeopleSim.app/Contents/MacOS/PeopleSim
+xnormal
+xi386
+lSLF07#2@91"Link /Users/jmichaels/Projects/PeopleSim/build/Debug/PeopleSim.app/Contents/MacOS/PeopleSim287572201#287572202#0(0"0(0#0#0"4300882208#533"    cd /Users/jmichaels/Projects/PeopleSim    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/jmichaels/Projects/PeopleSim/build/Debug -F/Users/jmichaels/Projects/PeopleSim/build/Debug -filelist /Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/Objects-normal/i386/PeopleSim.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -o /Users/jmichaels/Projects/PeopleSim/build/Debug/PeopleSim.app/Contents/MacOS/PeopleSim0#
+
+CProcessInfoPlistFile /Users/jmichaels/Projects/PeopleSim/build/Debug/PeopleSim.app/Contents/Info.plist Info.plist
+s287572191.786889
+e287572191.849790
+r1
+xProcessInfoPlistFile
+x/Users/jmichaels/Projects/PeopleSim/build/Debug/PeopleSim.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist287572191#287572191#0(0"0(0#0#46"/Users/jmichaels/Projects/PeopleSim/Info.plist31244156211822640#297"    cd /Users/jmichaels/Projects/PeopleSim    builtin-infoPlistUtility Info.plist -genpkginfo /Users/jmichaels/Projects/PeopleSim/build/Debug/PeopleSim.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/jmichaels/Projects/PeopleSim/build/Debug/PeopleSim.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/Ws/Ws1uagRKHrW7l3D9YW1yy++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PeopleSim_Prefix-cfceuljzmwpgjhbvisnjdfutxsjd/PeopleSim_Prefix.pch.gch PeopleSim_Prefix.pch normal i386 c com.apple.compilers.gcc.4_2
+s287572192.485286
+e287572193.549260
+r1
+xProcessPCH
+x/var/folders/Ws/Ws1uagRKHrW7l3D9YW1yy++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PeopleSim_Prefix-cfceuljzmwpgjhbvisnjdfutxsjd/PeopleSim_Prefix.pch.gch
+xPeopleSim_Prefix.pch
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile PeopleSim_Prefix.pch287572192#287572193#0(0"0(0#0#56"/Users/jmichaels/Projects/PeopleSim/PeopleSim_Prefix.pch4300882208#1348"    cd /Users/jmichaels/Projects/PeopleSim    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/PeopleSim-generated-files.hmap -I/Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/PeopleSim-own-target-headers.hmap -I/Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/PeopleSim-all-target-headers.hmap -iquote /Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/PeopleSim-project-headers.hmap -F/Users/jmichaels/Projects/PeopleSim/build/Debug -I/Users/jmichaels/Projects/PeopleSim/build/Debug/include -I/Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/DerivedSources/i386 -I/Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/DerivedSources -c /Users/jmichaels/Projects/PeopleSim/PeopleSim_Prefix.pch -o /var/folders/Ws/Ws1uagRKHrW7l3D9YW1yy++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PeopleSim_Prefix-cfceuljzmwpgjhbvisnjdfutxsjd/PeopleSim_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Ws/Ws1uagRKHrW7l3D9YW1yy++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PeopleSim_Prefix-gvoyxidqewlsaqfnbhuddymqdlim/PeopleSim_Prefix.pch.gch PeopleSim_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s287572192.483907
+e287572200.640152
+r1
+xProcessPCH
+x/var/folders/Ws/Ws1uagRKHrW7l3D9YW1yy++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PeopleSim_Prefix-gvoyxidqewlsaqfnbhuddymqdlim/PeopleSim_Prefix.pch.gch
+xPeopleSim_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile PeopleSim_Prefix.pch287572192#287572200#0(0"0(0#0#56"/Users/jmichaels/Projects/PeopleSim/PeopleSim_Prefix.pch4300882208#1358"    cd /Users/jmichaels/Projects/PeopleSim    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/PeopleSim-generated-files.hmap -I/Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/PeopleSim-own-target-headers.hmap -I/Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/PeopleSim-all-target-headers.hmap -iquote /Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/PeopleSim-project-headers.hmap -F/Users/jmichaels/Projects/PeopleSim/build/Debug -I/Users/jmichaels/Projects/PeopleSim/build/Debug/include -I/Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/DerivedSources/i386 -I/Users/jmichaels/Projects/PeopleSim/build/PeopleSim.build/Debug/PeopleSim.build/DerivedSources -c /Users/jmichaels/Projects/PeopleSim/PeopleSim_Prefix.pch -o /var/folders/Ws/Ws1uagRKHrW7l3D9YW1yy++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PeopleSim_Prefix-gvoyxidqewlsaqfnbhuddymqdlim/PeopleSim_Prefix.pch.gch0#
+
+CTouch /Users/jmichaels/Projects/PeopleSim/build/Debug/PeopleSim.app
+s287572202.618511
+e287572202.640587
+r1
+xTouch
+x/Users/jmichaels/Projects/PeopleSim/build/Debug/PeopleSim.app
+lSLF07#2@67"Touch /Users/jmichaels/Projects/PeopleSim/build/Debug/PeopleSim.app287572202#287572202#0(0"0(0#0#0"4300882208#127"    cd /Users/jmichaels/Projects/PeopleSim    /usr/bin/touch -c /Users/jmichaels/Projects/PeopleSim/build/Debug/PeopleSim.app0#
+
