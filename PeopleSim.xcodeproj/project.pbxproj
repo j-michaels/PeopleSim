@@ -18,6 +18,8 @@
 		925F791D0F6A720C005D2BD5 /* array.c in Sources */ = {isa = PBXBuildFile; fileRef = 925F79180F6A720C005D2BD5 /* array.c */; };
 		925F791E0F6A720C005D2BD5 /* wop.c in Sources */ = {isa = PBXBuildFile; fileRef = 925F791B0F6A720C005D2BD5 /* wop.c */; };
 		925F7A450F6AEBF3005D2BD5 /* ETPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 925F7A440F6AEBF3005D2BD5 /* ETPerson.m */; };
+		92C76A491130C04C00BE7B12 /* neuron.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92C76A481130C04C00BE7B12 /* neuron.cpp */; };
+		92C76A4C1130C5C700BE7B12 /* growth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92C76A4B1130C5C700BE7B12 /* growth.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +47,10 @@
 		925F791B0F6A720C005D2BD5 /* wop.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wop.c; sourceTree = "<group>"; };
 		925F7A430F6AEBF3005D2BD5 /* ETPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETPerson.h; sourceTree = "<group>"; };
 		925F7A440F6AEBF3005D2BD5 /* ETPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETPerson.m; sourceTree = "<group>"; };
+		92C76A471130C04C00BE7B12 /* neuron.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = neuron.h; sourceTree = "<group>"; };
+		92C76A481130C04C00BE7B12 /* neuron.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = neuron.cpp; sourceTree = "<group>"; };
+		92C76A4A1130C5C700BE7B12 /* growth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = growth.h; sourceTree = "<group>"; };
+		92C76A4B1130C5C700BE7B12 /* growth.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = growth.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +77,10 @@
 				921464461124027E00D73F0E /* Actor.cpp */,
 				9214644C112402EC00D73F0E /* ngrid.h */,
 				9214644D112402EC00D73F0E /* ngrid.cpp */,
+				92C76A471130C04C00BE7B12 /* neuron.h */,
+				92C76A481130C04C00BE7B12 /* neuron.cpp */,
+				92C76A4A1130C5C700BE7B12 /* growth.h */,
+				92C76A4B1130C5C700BE7B12 /* growth.cpp */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -217,6 +227,8 @@
 				925F7A450F6AEBF3005D2BD5 /* ETPerson.m in Sources */,
 				921464471124027E00D73F0E /* Actor.cpp in Sources */,
 				9214644E112402EC00D73F0E /* ngrid.cpp in Sources */,
+				92C76A491130C04C00BE7B12 /* neuron.cpp in Sources */,
+				92C76A4C1130C5C700BE7B12 /* growth.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

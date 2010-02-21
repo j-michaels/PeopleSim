@@ -8,8 +8,22 @@
  */
 
 #import <vector>
+#import "neuron.h"
+#import "growth.h"
 #define MAX_X		1000
 #define MAX_Y		1000
+
+/*
+	하다
+		Neuron growth
+			implement commands
+			'' runtime thingy
+ 
+		Runtime for neurons
+ 
+ */
+
+
 
 typedef struct {
 	int material;
@@ -26,12 +40,11 @@ class NGrid {
 public:
 	NGrid();
 	void iterate();
-	
+	void grow(vector<ng_factor> *factors);
 private:
-	grid_space grid[MAX_X][MAX_Y];
-	vector<grid_location> changed_spaces;
-	
-	//vector<Neuron *> neurons;
+	//grid_space grid[MAX_X][MAX_Y];
+	//vector<grid_location> changed_spaces;
+	vector<Neuron *> neurons;
 	
 	//vector<int> neur_inst;
 };

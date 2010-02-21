@@ -10,6 +10,7 @@
 #include "ngrid.h"
 
 
+
 grid_location make_loc(int x, int y) {
 	grid_location retloc;
 	retloc.x = x;
@@ -73,21 +74,22 @@ NGrid::NGrid() {
 	
 }
 
+//void NGrid::grow() {
+	
+//}
+
 /* 
  * Iterates through each square that has had its ion concentration changed,
  * propogating ions to adjacent squares
- */
-void NGrid::iterate() {
+ *
+void NGrid::ion_iterate() {
 	vector<grid_location>::iterator it;
 	
 	for (it = changed_spaces.begin(); it < changed_spaces.end(); it++) {
-		//square changed : grid[it.x][it.y]
+		// square changed : grid[it.x][it.y]
 		int *num;
 //		grid_location loc = make_loc(it.x, it.y);
 		grid_location *locations = adjacent_squares(*it, num);
-		
-		
 	}
-	
-	
 }
+*/
