@@ -204,7 +204,7 @@
 				<key>PBXProjectModuleGUID</key>
 				<string>92C76AC71130E83F00BE7B12</string>
 				<key>PBXProjectModuleLabel</key>
-				<string>ngrid.cpp</string>
+				<string>ngrid.h</string>
 				<key>PBXSplitModuleInNavigatorKey</key>
 				<dict>
 					<key>Split0</key>
@@ -216,7 +216,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>92C76AD41130F76400BE7B12</string>
+						<string>92C76AF611310DD200BE7B12</string>
 						<key>history</key>
 						<array>
 							<string>92C76AC91130E83F00BE7B12</string>
@@ -232,7 +232,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>92C76AD51130F76400BE7B12</string>
+						<string>92C76AF711310DD200BE7B12</string>
 						<key>history</key>
 						<array>
 							<string>92C76ACD1130E83F00BE7B12</string>
@@ -288,8 +288,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -333,7 +331,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>10</integer>
+									<integer>6</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -367,12 +365,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>925F79080F6A714C005D2BD5</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>ngrid.cpp</string>
+								<string>NeuroView.mm</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -380,11 +380,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>925F79090F6A714C005D2BD5</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>ngrid.cpp</string>
+										<string>NeuroView.mm</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>92C76AD31130F76400BE7B12</string>
+										<string>92C76AF511310DD200BE7B12</string>
 										<key>history</key>
 										<array>
 											<string>925F7A520F6AED85005D2BD5</string>
@@ -394,22 +394,24 @@
 											<string>925F7F2D0F6DE641005D2BD5</string>
 											<string>925F7F2E0F6DE641005D2BD5</string>
 											<string>9214647C11240A9B00D73F0E</string>
-											<string>921464D21124EB3F00D73F0E</string>
-											<string>921464D31124EB3F00D73F0E</string>
 											<string>92CEED65112A064E00FBC984</string>
 											<string>92CEED66112A064E00FBC984</string>
-											<string>92C76A5E1130C7EA00BE7B12</string>
 											<string>92C76A601130C7EA00BE7B12</string>
 											<string>92C76ABD1130E83F00BE7B12</string>
 											<string>92C76ABE1130E83F00BE7B12</string>
-											<string>92C76ABF1130E83F00BE7B12</string>
 											<string>92C76AC01130E83F00BE7B12</string>
 											<string>92C76AC11130E83F00BE7B12</string>
 											<string>92C76AC31130E83F00BE7B12</string>
-											<string>92C76AC41130E83F00BE7B12</string>
-											<string>92C76AD01130F76400BE7B12</string>
-											<string>92C76AD11130F76400BE7B12</string>
-											<string>92C76AD21130F76400BE7B12</string>
+											<string>92C76AD61130F8FC00BE7B12</string>
+											<string>92C76AD71130F8FC00BE7B12</string>
+											<string>92C76AE61131021C00BE7B12</string>
+											<string>92C76AE81131021C00BE7B12</string>
+											<string>92C76AEF11310DD200BE7B12</string>
+											<string>92C76AF011310DD200BE7B12</string>
+											<string>92C76AF111310DD200BE7B12</string>
+											<string>92C76AF211310DD200BE7B12</string>
+											<string>92C76AF311310DD200BE7B12</string>
+											<string>92C76AF411310DD200BE7B12</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>

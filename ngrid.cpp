@@ -83,12 +83,16 @@ ncoord NGrid::request_new_loc(ncoord *loc) {
 /* */
 Neuron *NGrid::neuron_from_ray(Neuron *n, int orientation) {
 	// primary ray is _orientation_
+	int theta = (orientation + 90) * PI/180;
+	
 	vector<Neuron *>::iterator it;
 	
 	for (it = neurons.begin(); it < neurons.end(); it++) {
 		if (n != it) {
 			// find the lower ray starting position
-			lower_ray_ax_coord = 
+			ncoord lower_ray_ax_coord = make_coord(
+				it->size * sin(theta),
+				it->size * cos(theta));
 		}
 	}
 }

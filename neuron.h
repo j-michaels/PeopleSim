@@ -24,8 +24,9 @@ public:
 	void spike();
 private:
 	void *grid;
-	vector<ng_factor> factors;
-	int bias, threshold, ion_concentration;
+	int bias, threshold, ion_concentration, size;
 	ncoord loc;
+	
+	vector<ng_factor> factors;
 	vector<void *> connections;
 };

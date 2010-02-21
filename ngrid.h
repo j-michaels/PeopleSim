@@ -10,6 +10,7 @@
 #import <vector>
 #import "neuron.h"
 #import "growth.h"
+#define PI 3.14159265
 #define MAX_X		1000
 #define MAX_Y		1000
 
