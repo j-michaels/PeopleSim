@@ -9,3 +9,9 @@
 
 #include "Actor.h"
 
+using namespace std;
+
+Actor::Actor() {
+	//nothing
+	
+}

@@ -11,6 +11,8 @@
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		921464471124027E00D73F0E /* Actor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 921464461124027E00D73F0E /* Actor.cpp */; };
+		9214644E112402EC00D73F0E /* ngrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9214644D112402EC00D73F0E /* ngrid.cpp */; };
 		925F79140F6A71E1005D2BD5 /* SimView.m in Sources */ = {isa = PBXBuildFile; fileRef = 925F79130F6A71E1005D2BD5 /* SimView.m */; };
 		925F791C0F6A720C005D2BD5 /* linkedlist.c in Sources */ = {isa = PBXBuildFile; fileRef = 925F79170F6A720C005D2BD5 /* linkedlist.c */; };
 		925F791D0F6A720C005D2BD5 /* array.c in Sources */ = {isa = PBXBuildFile; fileRef = 925F79180F6A720C005D2BD5 /* array.c */; };
@@ -29,6 +31,10 @@
 		32CA4F630368D1EE00C91783 /* PeopleSim_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeopleSim_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* PeopleSim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeopleSim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		921464451124027E00D73F0E /* Actor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = Actor.h; sourceTree = "<group>"; };
+		921464461124027E00D73F0E /* Actor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Actor.cpp; sourceTree = "<group>"; };
+		9214644C112402EC00D73F0E /* ngrid.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = ngrid.h; sourceTree = "<group>"; };
+		9214644D112402EC00D73F0E /* ngrid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ngrid.cpp; sourceTree = "<group>"; };
 		925F79120F6A71E1005D2BD5 /* SimView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimView.h; sourceTree = "<group>"; };
 		925F79130F6A71E1005D2BD5 /* SimView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimView.m; sourceTree = "<group>"; };
 		925F79160F6A720C005D2BD5 /* wop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wop.h; sourceTree = "<group>"; };
@@ -61,6 +67,10 @@
 				925F79130F6A71E1005D2BD5 /* SimView.m */,
 				925F7A430F6AEBF3005D2BD5 /* ETPerson.h */,
 				925F7A440F6AEBF3005D2BD5 /* ETPerson.m */,
+				921464451124027E00D73F0E /* Actor.h */,
+				921464461124027E00D73F0E /* Actor.cpp */,
+				9214644C112402EC00D73F0E /* ngrid.h */,
+				9214644D112402EC00D73F0E /* ngrid.cpp */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -205,6 +215,8 @@
 				925F791D0F6A720C005D2BD5 /* array.c in Sources */,
 				925F791E0F6A720C005D2BD5 /* wop.c in Sources */,
 				925F7A450F6AEBF3005D2BD5 /* ETPerson.m in Sources */,
+				921464471124027E00D73F0E /* Actor.cpp in Sources */,
+				9214644E112402EC00D73F0E /* ngrid.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

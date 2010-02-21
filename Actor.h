@@ -7,12 +7,16 @@
  *
  */
 
+#import <string>
 #import "ngrid.h"
+
+using namespace std;
 
 class Actor {
 public:
-	NGrid *mind;
+	Actor();
+	void push_input(string *where);
 private:
 	
-	
+	NGrid *mind;
 };
