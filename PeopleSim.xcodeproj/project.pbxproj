@@ -51,6 +51,7 @@
 		92C76A481130C04C00BE7B12 /* neuron.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = neuron.cpp; sourceTree = "<group>"; };
 		92C76A4A1130C5C700BE7B12 /* growth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = growth.h; sourceTree = "<group>"; };
 		92C76A4B1130C5C700BE7B12 /* growth.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = growth.cpp; sourceTree = "<group>"; };
+		92C76AA31130E6CD00BE7B12 /* junk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = junk.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +82,7 @@
 				92C76A481130C04C00BE7B12 /* neuron.cpp */,
 				92C76A4A1130C5C700BE7B12 /* growth.h */,
 				92C76A4B1130C5C700BE7B12 /* growth.cpp */,
+				92C76AA31130E6CD00BE7B12 /* junk.h */,
 			);
 			name = Classes;
 			sourceTree = "<group>";

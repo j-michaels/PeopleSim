@@ -9,8 +9,6 @@
 
 #include "ngrid.h"
 
-
-
 grid_location make_loc(int x, int y) {
 	grid_location retloc;
 	retloc.x = x;
@@ -71,25 +69,31 @@ using namespace std;
 
 NGrid::NGrid() {
 	// do nothing
-	
 }
 
-//void NGrid::grow() {
+ncoord NGrid::request_new_loc(ncoord *loc) {
+	ncoord coord;
+	coord.x = 0;
+	coord.y = 0;
+	coord.z = 0;
 	
-//}
+	return coord;
+}
 
-/* 
- * Iterates through each square that has had its ion concentration changed,
- * propogating ions to adjacent squares
- *
-void NGrid::ion_iterate() {
-	vector<grid_location>::iterator it;
+/* */
+Neuron *NGrid::neuron_from_ray(Neuron *n, int orientation) {
+	// primary ray is _orientation_
+	vector<Neuron *>::iterator it;
 	
-	for (it = changed_spaces.begin(); it < changed_spaces.end(); it++) {
-		// square changed : grid[it.x][it.y]
-		int *num;
-//		grid_location loc = make_loc(it.x, it.y);
-		grid_location *locations = adjacent_squares(*it, num);
+	for (it = neurons.begin(); it < neurons.end(); it++) {
+		if (n != it) {
+			// find the lower ray starting position
+			lower_ray_ax_coord = 
+		}
 	}
 }
-*/
+
+/* Run the grow commands */
+void NGrid::grow() {
+
+}
