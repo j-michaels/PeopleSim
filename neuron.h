@@ -20,13 +20,15 @@ class Neuron {
 public:
 	Neuron(ncoord nloc, vector<ng_factor> *factors, void *grid);
 	void grow();
+	
 	Neuron *divide();
+	void connect_to(Neuron *other);
+	int getSize();
 	void spike();
+	ncoord loc;
 private:
 	void *grid;
 	int bias, threshold, ion_concentration, size;
-	ncoord loc;
-	
 	vector<ng_factor> factors;
-	vector<void *> connections;
+	vector<Neuron *> connections;
 };

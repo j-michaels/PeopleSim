@@ -12,14 +12,15 @@
 
 Neuron::Neuron(ncoord nloc, vector<ng_factor> *factors, void *grid) {
 	loc = nloc;
-	this->factors = (*factors);
+	//this->factors = (*factors);
 	this->grid = grid;
+	//connections = new vector<Neuron *>;
 }
 
 void Neuron::spike() {
 }
 
-/* Run the grow commands */
+/* Run the grow commands 
 void Neuron::grow() {
 	vector<ng_factor>::iterator it;
 	
@@ -36,6 +37,15 @@ void Neuron::grow() {
 				break;
 		}
 	}
+}
+/* lol */
+
+void Neuron::connect_to(Neuron *other) {
+	connections.push_back(other);
+}
+
+int Neuron::getSize() {
+	return size;
 }
 
 Neuron *Neuron::divide() {

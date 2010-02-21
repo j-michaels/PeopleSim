@@ -8,11 +8,20 @@
  */
 
 #include "ngrid.h"
+#import "math.h"
 
 grid_location make_loc(int x, int y) {
 	grid_location retloc;
 	retloc.x = x;
 	retloc.y = y;
+	return retloc;
+}
+
+ncoord make_coord(int x, int y) {
+	ncoord retloc;
+	retloc.x = x;
+	retloc.y = y;
+	retloc.z = 0;
 	return retloc;
 }
 
@@ -69,6 +78,7 @@ using namespace std;
 
 NGrid::NGrid() {
 	// do nothing
+	
 }
 
 ncoord NGrid::request_new_loc(ncoord *loc) {
@@ -80,7 +90,21 @@ ncoord NGrid::request_new_loc(ncoord *loc) {
 	return coord;
 }
 
-/* */
+vector<Neuron *> *NGrid::getNeurons() {
+	return &neurons;
+}
+
+Neuron *NGrid::add_neuron(int x, int y) {
+	int size = 5; // default for now
+	ncoord loc;
+	loc.x = x;
+	loc.y = y;
+	loc.z = 0;
+	Neuron *nur = new Neuron(loc, NULL, this);
+	neurons.push_back(nur);
+	return nur;
+}
+
 Neuron *NGrid::neuron_from_ray(Neuron *n, int orientation) {
 	// primary ray is _orientation_
 	int theta = (orientation + 90) * PI/180;
@@ -88,14 +112,14 @@ Neuron *NGrid::neuron_from_ray(Neuron *n, int orientation) {
 	vector<Neuron *>::iterator it;
 	
 	for (it = neurons.begin(); it < neurons.end(); it++) {
-		if (n != it) {
+		if (!(n == (*it))) {
 			// find the lower ray starting position
 			ncoord lower_ray_ax_coord = make_coord(
-				it->size * sin(theta),
-				it->size * cos(theta));
+				(*it)->getSize() * sin(theta),
+				(*it)->getSize() * cos(theta));
 		}
 	}
-}
+}/**/
 
 /* Run the grow commands */
 void NGrid::grow() {

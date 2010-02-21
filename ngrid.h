@@ -36,6 +36,9 @@ public:
 	void iterate();
 	void grow();
 	ncoord request_new_loc(ncoord *loc);
+	Neuron *add_neuron(int x, int y);
+	Neuron *neuron_from_ray(Neuron *n, int orientation);
+	vector<Neuron *> *getNeurons();
 private:
 	//grid_space grid[MAX_X][MAX_Y];
 	//vector<grid_location> changed_spaces;
